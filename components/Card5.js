@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { RiPlayFill } from "react-icons/ri";
 
-const Card4 = () => {
+const Card5 = () => {
   return (
     <Link
       href="/"
@@ -11,7 +11,7 @@ const Card4 = () => {
     >
       <div className="mb-4 relative">
         <Image
-          src="/images/evermore.jpg"
+          src="/images/the-weeknd.jpg"
           width={200}
           height={350}
           alt="Album"
@@ -24,13 +24,13 @@ const Card4 = () => {
         </button>
       </div>
       <div>
-        <h5 className="font-medium text-gray-100 mb-2">Evermore</h5>
+        <h5 className="font-medium text-gray-100 mb-2">After Hours</h5>
         <p className="text-gray-400 text-sm w-[18ch]">
-          Taylor Swift
+            The Weeknd
         </p>
       </div>
     </Link>
   );
 };
 
-export default Card4;
+export default Card5;

@@ -3,6 +3,9 @@ import React from "react";
 import Card from "./Card";
 import Card2 from "./Card2";
 import Card3 from "./Card3";
+import Card4 from "./Card4";
+import Card5 from "./Card5";
+import Card6 from "./Card6";
 
 const ListAlbums = (props) => {
   const { title } = props;
@@ -27,9 +30,9 @@ const ListAlbums = (props) => {
         <Card />
         <Card2 />
         <Card3 />
-        <Card />
-        <Card />
-        <Card />
+        <Card4 />
+        <Card5 />
+        <Card6 />
       </div>
     </div>
   );
