@@ -31,9 +31,9 @@ const ListPodcast = (props) => {
         <Podcast />
         
       </div>
-    </div>
-  );  
-};
- 
+    </div>  
+  );    
+};  
+   
 export default ListPodcast;
   
