@@ -32,7 +32,8 @@ const ListPodcast = (props) => {
         
       </div>
     </div>
-  );
+  );  
 };
  
 export default ListPodcast;
+  
